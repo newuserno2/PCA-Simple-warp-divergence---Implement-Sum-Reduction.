@@ -16,9 +16,13 @@ and execution configurations.
 3. Use proper metrics and events with "nvprof" to analyse the performance of each kernel.
 
 ##code:
+
 kernel reduceUnrolling8
+
 #include "common.h"
+
 #include <cuda_runtime.h>
+
 #include <stdio.h>
 
 /*
